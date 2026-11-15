@@ -1,3 +1,4 @@
+--- @sync entry
 --- Pane toggles for Yazi, and an optional layout without the header line.
 ---
 --- Yazi's `ratio` setting is fixed when it starts. This plugin keeps the three ratios in a state
@@ -8,8 +9,6 @@
 ---
 ---   require("layout"):setup()                    -- the header line is hidden
 ---   require("layout"):setup { header = true }    -- the header line stays
-
---- @sync entry
 
 local M = {}
 

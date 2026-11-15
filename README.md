@@ -4,6 +4,24 @@
 
 [![CI](https://github.com/yazi-contrib/layout.yazi/actions/workflows/ci.yml/badge.svg)](https://github.com/yazi-contrib/layout.yazi/actions/workflows/ci.yml) [![Release](https://img.shields.io/github/v/release/yazi-contrib/layout.yazi)](https://github.com/yazi-contrib/layout.yazi/releases) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+## Screenshots
+
+Yazi as it is, with the header line at the top and the three panes:
+
+![Yazi without the plugin: the header line with the path, and three panes](docs/layout-default.png)
+
+With `require("layout"):setup()`, the header line is gone and the room is the list:
+
+![Yazi with layout.yazi: no header line](docs/layout-no-header.png)
+
+`plugin layout toggle-preview` hides the preview pane, and the list takes its room:
+
+![Yazi with the preview pane toggled off](docs/layout-preview-off.png)
+
+`plugin layout toggle-parent` hides the parent pane:
+
+![Yazi with the parent pane toggled off](docs/layout-parent-off.png)
+
 ## Dependencies
 
 - [Yazi](https://yazi-rs.github.io) (the latest release)
